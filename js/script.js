@@ -294,10 +294,10 @@ function App() {
                      value={lang}
                      onChange={(e) => setLang(e.target.value)}
                   >
-                     <option value="uk">{t("langUk")}</option>
-                     <option value="en">{t("langEn")}</option>
-                     <option value="fr">{t("langFr")}</option>
-                     <option value="ru">{t("langRu")}</option>
+                     <option value="uk">🇺🇦</option>
+                     <option value="en">🇬🇧</option>
+                     <option value="fr">🇫🇷</option>
+                     <option value="ru">🇷🇺</option>
                   </select>
                </div>
 

@@ -172,7 +172,7 @@ button.danger {
    display: flex;
    flex-direction: column;
    gap: 8px;
-   min-width: 150px;
+   min-width: 160px;
 }
 
 .empty {
@@ -183,4 +183,11 @@ button.danger {
 .small {
    color: var(--muted);
    font-size: 13px;
+}
+
+/* блок мови */
+.langBox {
+   display: flex;
+   gap: 8px;
+   align-items: center;
 }
